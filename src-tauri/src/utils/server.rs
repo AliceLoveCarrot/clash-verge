@@ -5,7 +5,7 @@ use tauri::{AppHandle, Manager};
 use warp::Filter;
 
 #[cfg(not(feature = "verge-dev"))]
-const SERVER_PORT: u16 = 33333;
+const SERVER_PORT: u16 = 33233;
 #[cfg(feature = "verge-dev")]
 const SERVER_PORT: u16 = 11233;
 

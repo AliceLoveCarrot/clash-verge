@@ -4,7 +4,7 @@ use tauri::{App, AppHandle, Manager};
 /// handle something when start app
 pub fn resolve_setup(app: &App) {
   // setup a simple http server for singleton
-  server::embed_server(&app.handle());
+  // server::embed_server(&app.handle());
 
   // init app config
   init::init_app(app.package_info());
